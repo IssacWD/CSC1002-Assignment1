@@ -1,0 +1,96 @@
+1. No fixed number or number shown
+1)Invalid answer
+
+bash-3.2$ python3 /users/apple/assignment1.py
+I want to play a game. Join me? (yes/no) : hahaha
+Answer me!
+I want to play a game. Join me? (yes/no) :
+
+2)Valid answer
+
+Answering ‘no’:
+bash-3.2$ python3 /users/apple/assignment1.py
+I want to play a game. Join me? (yes/no) : no
+bash-3.2$
+
+Answering ‘yes’and valid input:
+bash-3.2$ python3 /users/apple/assignment1.py
+I want to play a game. Join me? (yes/no) : yes
+Your Guess 1/8 : 1234
+1234 : Correct : 0 Position : 1
+Your Guess 2/8 : 4567
+1234 : Correct : 0 Position : 1
+4567 : Correct : 0 Position : 2
+Your Guess 3/8 : 3478
+1234 : Correct : 0 Position : 1
+4567 : Correct : 0 Position : 2
+3478 : Correct : 0 Position : 1
+Your Guess 4/8 : 2897
+1234 : Correct : 0 Position : 1
+4567 : Correct : 0 Position : 2
+3478 : Correct : 0 Position : 1
+2897 : Correct : 1 Position : 1
+Your Guess 5/8 : 3950
+1234 : Correct : 0 Position : 1
+4567 : Correct : 0 Position : 2
+3478 : Correct : 0 Position : 1
+2897 : Correct : 1 Position : 1
+3950 : Correct : 0 Position : 1
+Your Guess 6/8 : 1798
+1234 : Correct : 0 Position : 1
+4567 : Correct : 0 Position : 2
+3478 : Correct : 0 Position : 1
+2897 : Correct : 1 Position : 1
+3950 : Correct : 0 Position : 1
+1798 : Correct : 1 Position : 0
+Your Guess 7/8 : 1389
+1234 : Correct : 0 Position : 1
+4567 : Correct : 0 Position : 2
+3478 : Correct : 0 Position : 1
+2897 : Correct : 1 Position : 1
+3950 : Correct : 0 Position : 1
+1798 : Correct : 1 Position : 0
+1389 : Correct : 0 Position : 0
+Your Guess 8/8 : 2347
+1234 : Correct : 0 Position : 1
+4567 : Correct : 0 Position : 2
+3478 : Correct : 0 Position : 1
+2897 : Correct : 1 Position : 1
+3950 : Correct : 0 Position : 1
+1798 : Correct : 1 Position : 0
+1389 : Correct : 0 Position : 0
+2347 : Correct : 1 Position : 1
+Game over! Number: 2706
+I want to play a game. Join me? (yes/no) :
+
+Answering ‘yes’ but invalid input:
+I want to play a game. Join me? (yes/no) : yes
+Your Guess 1/8 : 1123
+Invalid input! Please input a four-digit integer without repeating digits.
+Your Guess 1/8 : string
+Invalid input! Please input a four-digit integer without repeating digits.
+Your Guess 1/8 :
+
+
+
+
+2. Show the number before start
+
+bash-3.2$ python3 /users/apple/assignment1.py show
+Number: 9683
+I want to play a game. Join me? (yes/no) :
+
+
+
+
+3. Fix the number and show the number before start
+
+bash-3.2$ python3 /users/apple/assignment1.py fix 5678
+Number: 5678
+I want to play a game. Join me? (yes/no) : yes
+Your Guess 1/8 : 1234
+1234 : Correct : 0 Position : 0
+Your Guess 2/8 : 5678
+Congratulations!! Number: 5678
+Number: 5678
+I want to play a game. Join me? (yes/no) :
