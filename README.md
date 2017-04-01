@@ -1,4 +1,4 @@
-# CSC1002-Assignment2
+# CSC1002-Assignment1
 # Design Document for Assignment_1 (Number-Guessing)
 
 ## 1. Scope and Goals
